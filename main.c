@@ -67,7 +67,7 @@ int main (int argc, char *argv[]) {
         default:
             break;
         }
-        printf("Desea elegir otra opcion\n>>");
+        printf("Desea elegir otra opcion\n>> 1(si) o 2(no)");
         scanf("%d",&opcion);
     } while (opcion==1);
     
